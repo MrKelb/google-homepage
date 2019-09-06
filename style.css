@@ -5,17 +5,17 @@ body {
 }
 
 .topnav {
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     color: black;
-    padding: 5px
+    padding: 20px;
 }
 
 .topnav .signin {
     border: 2px solid blue;
     background-color: blue;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .topnav a:link {
@@ -32,29 +32,51 @@ body {
     color: black;
 }
 
-.center {
-    width: 200px;
-    margin: auto;
-    padding-top: 50px;
-    display: inline-block;
-    font-size: 15px;
-}
-
-.img {
+.main {
     text-align: center;
-    display: block;
-    padding-top: 200px;
+    padding-top: 150px;
+    padding-bottom: 300px;
 }
 
-input {
-    padding: 5px;
-    display: inline-block;
-    margin-left: 856px;
+.google-logo {
+    height: 180px
 }
 
-.bottomnav {
-    color: black;
-    background-color: grey;
-    font-size: 20px;
-    margin-top: 400px;
+.search {
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 20px;
 }
+
+.btn-search {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+}
+
+.bottom-nav {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.location {
+    line-height: 10px;
+}
+
+.bottom-nav-2 {
+    line-height: 80px;
+}
+
+
+
+
+
